@@ -13,19 +13,20 @@ Multi-view multi-label classification aims to utilize the rich information conta
 ## Environment
 Please run the following command in the shell, as specified in `requirements.txt`:
 ```bash
-conda create -n COME
-conda activate COME
+conda create -n QUALITY
+conda activate QUALITY
 pip install -r requirements.txt
 ```
 ## Citation
 If you find this work useful, please consider citing it:
 ```
-@inproceedings{wen2025learning,
-  title={Learning Compact Semantic Information for Incomplete Multi-View Missing Multi-Label Classification},
-  author={Wen, Jie and Liu, Yadong and Tang, Zhanyan and He, Yuting and Chen, Yulong and Li, Mu and Liu, Chengliang},
-  booktitle={International Conference on Machine Learning},
-  pages={66467--66480},
-  year={2025},
-  organization={PMLR}
+@article{Liu_Wong_Chen_Wen_2026,
+  title={Quality-aware and Soft Consistency Driven Representation Fusion for Incomplete Multi-view Multi-label Classification},
+  volume={40},
+  number={28},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  author={Liu, Yadong and Wong, Waikeung and Chen, Yulong and Wen, Jie},
+  year={2026},
+  pages={23882-23890}
 }
 ```
